@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="employee_dbconnections.cs" />
+    <Compile Include="loginDb_dbconnections.cs" />
     <Compile Include="payrol_dbconnection.cs" />
+    <Compile Include="payrol_variables.cs" />
     <Compile Include="POS_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,9 +57,11 @@
       <DependentUpon>POS_Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="pos_dbconnection.cs" />
+    <Compile Include="Price_Item_Value.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="useraccount_db_connection.cs" />
+    <Compile Include="Variables.cs" />
     <EmbeddedResource Include="POS_Admin.resx">
       <DependentUpon>POS_Admin.cs</DependentUpon>
     </EmbeddedResource>
